@@ -1,32 +1,32 @@
 /*!
- * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  padding-top: 54px;
 }
 
-/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
 
 .business-header {
-    height: 300px;
-    /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
-    background: url('../img/cover2.jpg') center center no-repeat scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  height: 50vh;
+  max-height: 300px;
+  background: url('../img/cover2.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-.no_top_margin {
-    margin-top: 0px;
+.card {
+  height: 100%;
 }
-
-a.anchor{display: block; position: relative; top: -61px; visibility: hidden;}
-
-/* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
     text-shadow: 0 0 10px #000;
@@ -34,7 +34,8 @@ a.anchor{display: block; position: relative; top: -61px; visibility: hidden;}
 }
 
 .img-center {
-    margin: 0 auto;
+    margin: 15px auto;
+    display: block;
 }
 
 footer {
